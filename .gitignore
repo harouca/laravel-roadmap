@@ -3,10 +3,17 @@
 Thumbs.db
 .idea/
 .vscode/
+.fleet/
 *.swp
+*.swo
+*~
 
 # Arquivos locais e temporários
 *.log
+.phpunit.result.cache
+.phpunit.cache/
+.php-cs-fixer.cache
+coverage/
 .env
 .env.*
 !.env.example
@@ -15,6 +22,8 @@ Thumbs.db
 /project/vendor/
 /project/node_modules/
 /project/public/build/
+/project/public/hot
+/project/bootstrap/cache/*.php
 /project/storage/*.key
 /project/storage/framework/cache/data/*
 /project/storage/framework/sessions/*
