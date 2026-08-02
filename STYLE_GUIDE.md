@@ -9,6 +9,10 @@ Este guia define o padrão editorial do Laravel Roadmap. Ele deve ser aplicado a
 - Preserve em inglês os nomes oficiais de recursos, classes, métodos, arquivos e comandos.
 - Explique siglas e termos técnicos na primeira ocorrência quando eles ainda não tiverem sido apresentados.
 - Explique o porquê de uma decisão, não apenas como executá-la.
+- Ao apresentar um recurso, explique o que é, por que existe, quando usar e
+  quando evitar.
+- Escreva conceitos gerais de forma independente da versão. Registre diferenças
+  confirmadas do Laravel 13 em `versions/laravel-13.md`.
 
 ## Comandos e código
 
@@ -26,12 +30,40 @@ Este guia define o padrão editorial do Laravel Roadmap. Ele deve ser aplicado a
 
 ## Estrutura dos capítulos
 
-Cada capítulo deve seguir a progressão definida em `AGENTS.md` e terminar, nesta ordem, com:
+Cada capítulo deve seguir a progressão definida em `AGENTS.md`. Use, quando aplicável, esta estrutura:
 
-1. um resumo dos conceitos essenciais;
-2. exercícios que permitam verificar e aplicar o aprendizado.
+1. objetivos;
+2. pré-requisitos;
+3. conceitos;
+4. funcionamento interno;
+5. exemplo simples;
+6. exemplo aplicado;
+7. erros comuns;
+8. boas práticas;
+9. resumo;
+10. exercícios;
+11. checklist.
 
-Quando fizer sentido, inclua pré-requisitos, funcionamento interno, erros comuns, boas práticas e checklist.
+Termine sempre com um resumo dos conceitos essenciais e exercícios que permitam
+verificar e aplicar o aprendizado. O checklist, quando necessário, deve fazer
+parte do encerramento e não introduzir conceitos novos.
+
+## Notas, alertas e boas práticas
+
+Use citações Markdown com um rótulo em negrito para destacar informação que não
+deve ficar escondida no texto:
+
+```markdown
+> **Nota:** informação complementar útil para compreender o contexto.
+
+> **Atenção:** risco de erro, perda de dados ou comportamento inesperado.
+
+> **Boa prática:** recomendação aplicável, acompanhada de sua justificativa.
+```
+
+Não use alertas como decoração nem para repetir a frase anterior. Explique o
+impacto concreto e, em instruções potencialmente destrutivas, indique como
+reduzir o risco.
 
 ## Domínio dos exemplos
 

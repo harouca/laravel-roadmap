@@ -4,7 +4,7 @@ Todas as mudanças relevantes deste repositório serão registradas neste arquiv
 
 O formato segue os princípios de [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/), e o projeto pretende adotar [Versionamento Semântico](https://semver.org/lang/pt-BR/) quando houver versões publicadas.
 
-## [Não publicado]
+## [Unreleased]
 
 ### Adicionado
 
@@ -20,6 +20,8 @@ O formato segue os princípios de [Keep a Changelog](https://keepachangelog.com/
 
 ### Alterado
 
+- Fundação editorial e operacional revisada, com público-alvo, tecnologias,
+  fases de aprendizagem, critérios de conclusão e restrições mais explícitos.
 - Versão de referência do projeto atualizada de Laravel 12 para Laravel 13.
 - Documentação ajustada para diferenciar explicação, exemplo isolado, prática orientada e aplicação progressiva.
 - README atualizado para apresentar o guia e as convenções de contribuição.

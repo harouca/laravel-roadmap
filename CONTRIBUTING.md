@@ -131,18 +131,39 @@ Um laboratório deve poder ser concluído com o estado do projeto previsto para
 aquela etapa do roadmap. Caso dependa de algo ainda não instalado, registre essa
 condição explicitamente.
 
-## Fluxo sugerido
+## Fluxo de contribuição
 
-1. Crie uma branch curta e descritiva para a alteração.
-2. Faça mudanças pequenas e focadas em um único assunto.
-3. Revise ortografia, links, comandos e exemplos de código.
-4. Confirme que o conteúdo respeita a progressão do `ROADMAP.md`.
-5. Atualize o `CHANGELOG.md` quando a mudança for relevante para os leitores.
-6. Abra um pull request explicando o objetivo e como a alteração foi validada.
+1. Parta de uma branch principal atualizada.
+2. Crie uma branch curta e descritiva, como `docs/rotas` ou
+   `labs/validacao-paciente`.
+3. Faça mudanças pequenas e focadas em um único assunto.
+4. Revise ortografia, links, comandos e exemplos de código.
+5. Confirme que o conteúdo respeita a progressão do `ROADMAP.md`.
+6. Atualize o `CHANGELOG.md` apenas quando a mudança for relevante para os
+   leitores ou para a estrutura do projeto.
+7. Abra um pull request explicando o objetivo e como a alteração foi validada.
 
 Se houver código executável, rode os testes e as ferramentas de qualidade
 disponíveis no diretório correspondente. Não inclua credenciais, arquivos de
 ambiente locais, dependências geradas ou outros dados sensíveis.
+
+## Critérios para concluir um capítulo
+
+Um capítulo pode ser considerado concluído quando:
+
+- possui objetivo claro e pré-requisitos quando necessários;
+- explica o que é o conceito, por que existe, quando usar e quando evitar;
+- respeita a ordem pedagógica e não depende de conteúdo ainda não apresentado;
+- diferencia conceitos gerais de observações específicas do Laravel 13;
+- confirma afirmações específicas de versão em documentação oficial;
+- inclui exemplos tecnicamente coerentes e adequados ao nível do leitor;
+- termina com resumo e exercícios que verificam os objetivos propostos;
+- segue o `STYLE_GUIDE.md` e usa a terminologia definida pelo projeto;
+- não contém links quebrados, comandos não explicados ou trechos incompletos;
+- foi revisado quanto à clareza, correção técnica e ortografia.
+
+Checklist não substitui revisão humana. Se um exemplo puder ser executado, a
+revisão deve informar como ele foi testado e qual resultado foi obtido.
 
 ## Padrão de commits
 
@@ -170,6 +191,11 @@ O pull request deve informar:
 - os principais arquivos alterados;
 - como a mudança foi revisada ou testada;
 - imagens, quando houver alteração visual relevante.
+
+Durante a revisão, confirme a correção técnica, a adequação ao público-alvo, a
+progressão pedagógica e o cumprimento dos critérios de conclusão. Comentários de
+revisão devem explicar o problema e, quando possível, sugerir uma direção para a
+correção.
 
 Antes de enviar, confira se o pull request não contém mudanças não relacionadas
 ao seu objetivo.

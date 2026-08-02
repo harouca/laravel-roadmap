@@ -6,6 +6,7 @@ Este repositório combina:
 
 - roadmap de aprendizado;
 - livro técnico sobre Laravel;
+- laboratórios e exercícios;
 - exemplos isolados;
 - projeto Laravel progressivo.
 
@@ -19,13 +20,11 @@ Desenvolvedor com conhecimento básico de Laravel e PHP, ainda em processo de ap
 
 ## Tecnologias de referência
 
-- Laravel 13
-- PHP 8.4
-- MySQL
-- Apache
-- Docker
-- Bootstrap
-- JavaScript
+- Laravel 13;
+- versão do PHP compatível com o Laravel 13;
+- MySQL;
+- Docker para desenvolvimento;
+- Apache ou Nginx em produção.
 
 ## Organização
 
@@ -62,7 +61,24 @@ Aplicar as regras de `STYLE_GUIDE.md` a todo conteúdo novo ou alterado. Em espe
 - terminar capítulos com resumo e exercícios;
 - explicar o porquê, não apenas o como.
 
+Para cada recurso, explicar o que é, por que existe, quando usar e quando
+evitar. A linguagem deve ser clara para quem possui apenas conhecimentos básicos
+de PHP e Laravel.
+
+Conceitos gerais devem permanecer independentes da versão do framework. Não
+atribuir um comportamento ao Laravel 13 sem confirmação na documentação oficial.
+
 Ao iniciar o suporte a uma nova versão principal, criar `versions/laravel-N.md`. Não misturar nesse arquivo conceitos gerais do framework.
+
+## Restrições
+
+- Preservar conteúdo útil e evitar arquivos duplicados.
+- Não criar capítulos vazios ou arquivos apenas para antecipar assuntos futuros.
+- Usar `.gitkeep` somente quando um diretório vazio precisar ser versionado.
+- Não instalar ou recriar a aplicação Laravel sem solicitação explícita.
+- Não incluir segredos, arquivos `.env` ou credenciais no repositório.
+- Não substituir conteúdo válido sem necessidade e registrar mudanças estruturais
+  relevantes no `CHANGELOG.md`.
 
 ## Projeto de referência
 

@@ -1,17 +1,42 @@
 # Laravel Roadmap
 
-O **Laravel Roadmap** é um repositório educacional em português brasileiro, focado no Laravel 13, que combina quatro objetivos:
+O **Laravel Roadmap** é um repositório educacional em português brasileiro que
+usa o Laravel 13 como versão técnica de referência e combina cinco objetivos:
 
 1. oferecer uma trilha progressiva de estudos;
 2. servir como livro de consulta sobre Laravel;
-3. reunir exemplos práticos e isolados;
-4. construir uma aplicação Laravel de forma incremental, capítulo por capítulo.
+3. oferecer laboratórios e exercícios orientados;
+4. reunir exemplos práticos e isolados;
+5. construir uma aplicação Laravel de forma incremental, capítulo por capítulo.
 
-Neste estágio, o repositório contém apenas a estrutura documental. O Laravel ainda não foi instalado.
+O conteúdo está em desenvolvimento. Neste estágio, o repositório contém a
+fundação editorial, capítulos introdutórios e laboratórios planejados. A
+aplicação Laravel ainda não foi instalada em `project/`.
+
+## Público-alvo
+
+O material é destinado a pessoas com conhecimentos básicos de PHP e Laravel que
+desejam avançar em orientação a objetos, arquitetura e desenvolvimento de
+aplicações. Os conceitos são apresentados progressivamente, sem pressupor
+domínio avançado do framework.
+
+## Tecnologias de referência
+
+- Laravel 13;
+- uma versão do PHP compatível com o Laravel 13;
+- MySQL;
+- Docker para o ambiente de desenvolvimento;
+- Apache ou Nginx para produção.
+
+Conceitos gerais são documentados sem vínculo desnecessário com uma versão.
+Comportamentos específicos da versão de referência pertencem ao documento
+[Laravel 13](versions/laravel-13.md) e devem ser confirmados na documentação
+oficial antes de serem registrados.
 
 ## Como usar este repositório
 
 - Consulte o [ROADMAP.md](ROADMAP.md) para acompanhar a ordem sugerida de estudos.
+- Respeite as dependências indicadas em cada fase antes de avançar.
 - Leia os capítulos em `docs/` na sequência numérica.
 - Use `examples/` para exemplos pequenos e independentes dos capítulos.
 - Resolva os exercícios orientados em `labs/` para praticar cada etapa.
@@ -32,7 +57,8 @@ Neste estágio, o repositório contém apenas a estrutura documental. O Laravel 
 ├── project/        # Aplicação Laravel construída progressivamente
 ├── ROADMAP.md      # Ordem sugerida dos estudos
 ├── CONTRIBUTING.md # Convenções para contribuições
-└── STYLE_GUIDE.md  # Padrão editorial do conteúdo
+├── STYLE_GUIDE.md  # Padrão editorial do conteúdo
+└── AGENTS.md       # Contexto permanente para agentes de IA
 ```
 
 ## Capítulos disponíveis
