@@ -9,7 +9,12 @@ técnica quanto a etapa de aprendizado do leitor.
 Leia estes documentos:
 
 - [README.md](README.md), para conhecer o objetivo e a estrutura do projeto;
+- [VISION.md](VISION.md), para conhecer a missão e os valores do projeto;
+- [MASTER_PLAN.md](MASTER_PLAN.md), para conhecer a arquitetura editorial;
 - [ROADMAP.md](ROADMAP.md), para entender a sequência de estudos;
+- [AI_GUIDE.md](AI_GUIDE.md), para utilizar IA de forma crítica e responsável;
+- [PEDAGOGY.md](PEDAGOGY.md), para aplicar a metodologia de ensino e avaliação;
+- [GLOSSARY.md](GLOSSARY.md), para seguir a estrutura dos futuros verbetes;
 - [AGENTS.md](AGENTS.md), para consultar as regras do repositório;
 - [STYLE_GUIDE.md](STYLE_GUIDE.md), para seguir o padrão editorial.
 
@@ -23,6 +28,10 @@ roadmap. Não crie capítulos vazios para assuntos futuros.
 - `labs/`: exercícios orientados, com objetivo e critérios de conclusão;
 - `project/`: aplicação Laravel construída ao longo do aprendizado;
 - `assets/`: imagens e diagramas usados pelo material;
+- `ai/`: prompts, revisões, estudos de caso, padrões e checklists que demonstrem
+  uso crítico de IA;
+- `templates/`: modelos obrigatórios para iniciar cada tipo de conteúdo;
+- `decisions/`: registros do contexto e da justificativa de decisões importantes;
 - `versions/`: mudanças exclusivas de uma versão principal do Laravel.
 
 Conceitos gerais do framework devem ficar nos capítulos correspondentes, não nos
@@ -45,9 +54,10 @@ Quando aplicável, um capítulo deve incluir:
 6. exemplo aplicado;
 7. erros comuns;
 8. boas práticas;
-9. resumo;
-10. exercícios;
-11. checklist.
+9. IA em Ação;
+10. resumo;
+11. exercícios;
+12. checklist.
 
 Os exemplos principais devem utilizar o sistema de gestão ambulatorial e suas
 entidades, como Paciente, Atendimento, Prontuário, Receita, Médico, Enfermeiro e
@@ -84,6 +94,10 @@ Todo código deve ser compatível com as tecnologias de referência definidas em
 `AGENTS.md`. Comandos devem aparecer em blocos `bash` e os demais blocos devem
 identificar a linguagem sempre que possível.
 
+Conteúdo assistido por IA continua sujeito aos mesmos critérios técnicos e
+editoriais. O autor deve compreender o resultado, remover dados sensíveis,
+registrar a análise crítica pertinente e apresentar evidências de validação.
+
 ## Convenção dos arquivos
 
 Use nomes em letras minúsculas, sem espaços ou acentos, com palavras separadas
@@ -95,6 +109,7 @@ por hífen. Siga os padrões específicos de cada diretório:
 - exemplos de um arquivo: `examples/nome-do-conceito.ext`;
 - exemplos com vários arquivos: `examples/nome-do-conceito/`;
 - imagens e diagramas: `assets/nome-descritivo.ext`.
+- decisões: `decisions/NNNN-titulo-descritivo.md`.
 
 Em `NN`, use dois dígitos e preserve a ordem definida no roadmap. Em `N`, use o
 número da versão principal do Laravel. Nomes exigidos por uma tecnologia, como
@@ -103,6 +118,11 @@ dessa tecnologia.
 
 Ao adicionar, remover ou renomear um capítulo, atualize os links e índices
 afetados, especialmente `README.md` e `ROADMAP.md`.
+
+Ao iniciar um conteúdo, use o modelo correspondente em `templates/` e remova as
+instruções editoriais que não façam parte do resultado final. Decisões relevantes
+devem seguir `templates/decision-template.md` e a política descrita em
+`decisions/README.md`.
 
 ## Organização dos exercícios
 
@@ -157,6 +177,8 @@ Um capítulo pode ser considerado concluído quando:
 - diferencia conceitos gerais de observações específicas do Laravel 13;
 - confirma afirmações específicas de versão em documentação oficial;
 - inclui exemplos tecnicamente coerentes e adequados ao nível do leitor;
+- contém a seção `IA em Ação`, com revisão crítica e validação da resposta, se
+  for um capítulo técnico;
 - termina com resumo e exercícios que verificam os objetivos propostos;
 - segue o `STYLE_GUIDE.md` e usa a terminologia definida pelo projeto;
 - não contém links quebrados, comandos não explicados ou trechos incompletos;

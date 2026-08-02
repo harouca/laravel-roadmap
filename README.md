@@ -1,13 +1,27 @@
 # Laravel Roadmap
 
-O **Laravel Roadmap** é um repositório educacional em português brasileiro que
-usa o Laravel 13 como versão técnica de referência e combina cinco objetivos:
+O **Laravel Roadmap** é um framework aberto de aprendizagem em português
+brasileiro. Ele usa o Laravel 13 como versão técnica de referência para ensinar
+desenvolvimento de aplicações, Engenharia de Software e uso profissional de
+Inteligência Artificial.
 
-1. oferecer uma trilha progressiva de estudos;
-2. servir como livro de consulta sobre Laravel;
-3. oferecer laboratórios e exercícios orientados;
-4. reunir exemplos práticos e isolados;
-5. construir uma aplicação Laravel de forma incremental, capítulo por capítulo.
+O projeto combina:
+
+1. um roadmap progressivo, do básico ao avançado;
+2. documentação técnica e um livro de referência;
+3. laboratórios, exercícios e exemplos isolados;
+4. uma aplicação Laravel construída progressivamente;
+5. práticas de Engenharia de Software, arquitetura e fluxo profissional com Git;
+6. uma metodologia para desenvolvimento assistido por IA.
+
+A IA é uma camada transversal do roadmap, não um assunto isolado. Ela deve
+ajudar a investigar, implementar, revisar e comparar soluções, sem transferir à
+ferramenta a responsabilidade técnica. A filosofia central é:
+
+> **Nunca aceite uma resposta da IA sem compreendê-la.**
+
+A IA amplia a produtividade. O conhecimento, as decisões e a responsabilidade
+continuam pertencendo ao desenvolvedor.
 
 O conteúdo está em desenvolvimento. Neste estágio, o repositório contém a
 fundação editorial, capítulos introdutórios e laboratórios planejados. A
@@ -17,8 +31,9 @@ aplicação Laravel ainda não foi instalada em `project/`.
 
 O material é destinado a pessoas com conhecimentos básicos de PHP e Laravel que
 desejam avançar em orientação a objetos, arquitetura e desenvolvimento de
-aplicações. Os conceitos são apresentados progressivamente, sem pressupor
-domínio avançado do framework.
+aplicações. Também atende quem deseja incorporar IA ao fluxo de trabalho sem
+abrir mão de entendimento, revisão crítica e validação. Os conceitos são
+apresentados progressivamente, sem pressupor domínio avançado do framework.
 
 ## Tecnologias de referência
 
@@ -35,10 +50,23 @@ oficial antes de serem registrados.
 
 ## Como usar este repositório
 
+- Leia o [VISION.md](VISION.md) para conhecer a missão e os compromissos do
+  projeto.
+- Leia o [AI_GUIDE.md](AI_GUIDE.md) antes de usar IA nas atividades do roadmap.
+- Consulte o [PEDAGOGY.md](PEDAGOGY.md) para conhecer a metodologia de ensino e
+  avaliação.
+- Use o [GLOSSARY.md](GLOSSARY.md), quando houver verbetes publicados, como
+  apoio à consulta de termos.
+- Use `templates/` para iniciar novos conteúdos e consulte `decisions/` para
+  compreender escolhas importantes do projeto.
 - Consulte o [ROADMAP.md](ROADMAP.md) para acompanhar a ordem sugerida de estudos.
+- Consulte o [MASTER_PLAN.md](MASTER_PLAN.md) para conhecer a arquitetura do
+  livro e a evolução planejada da aplicação.
 - Respeite as dependências indicadas em cada fase antes de avançar.
 - Leia os capítulos em `docs/` na sequência numérica.
 - Use `examples/` para exemplos pequenos e independentes dos capítulos.
+- Consulte `ai/` para materiais complementares sobre prompts, revisões, estudos
+  de caso, padrões e checklists.
 - Resolva os exercícios orientados em `labs/` para praticar cada etapa.
 - Acompanhe em `project/` a aplicação que será desenvolvida ao longo do roadmap.
 - Consulte `versions/` para mudanças específicas da versão de referência.
@@ -53,8 +81,16 @@ oficial antes de serem registrados.
 ├── examples/       # Exemplos práticos e isolados
 ├── labs/           # Atividades práticas orientadas
 ├── assets/         # Imagens e outros recursos dos documentos
+├── ai/             # Materiais sobre uso crítico e profissional de IA
+├── templates/      # Modelos para produção consistente de conteúdo
+├── decisions/      # Contexto e justificativas de decisões importantes
 ├── versions/       # Mudanças específicas de cada versão do Laravel
 ├── project/        # Aplicação Laravel construída progressivamente
+├── AI_GUIDE.md     # Princípios permanentes para uso de IA
+├── PEDAGOGY.md     # Metodologia de ensino e avaliação
+├── GLOSSARY.md     # Estrutura do glossário de termos
+├── VISION.md       # Missão, visão e compromissos do projeto
+├── MASTER_PLAN.md  # Arquitetura editorial e operacional
 ├── ROADMAP.md      # Ordem sugerida dos estudos
 ├── CONTRIBUTING.md # Convenções para contribuições
 ├── STYLE_GUIDE.md  # Padrão editorial do conteúdo

@@ -9,7 +9,17 @@ O formato segue os princípios de [Keep a Changelog](https://keepachangelog.com/
 ### Adicionado
 
 - Estrutura documental inicial do repositório.
+- Documento de visão com missão, princípios e compromissos de qualidade.
+- Guia permanente para uso crítico e responsável de Inteligência Artificial.
+- Metodologia pedagógica para concepção, prática, avaliação e revisão do ensino.
+- Estrutura editorial do futuro glossário, ainda sem verbetes.
+- Modelos editoriais para capítulos, laboratórios, exemplos, decisões e estudos
+  de caso.
+- Registro de decisões e primeira decisão sobre a visão e a missão do projeto.
+- Diretório `ai/` para futuros prompts, revisões, estudos de caso, padrões e
+  checklists.
 - Roadmap progressivo de estudos.
+- Plano mestre da arquitetura editorial e da evolução da aplicação progressiva.
 - Capítulos sobre introdução, estrutura do Laravel e PHP Artisan.
 - Diretórios reservados para exemplos, recursos visuais e aplicação prática.
 - Guia de estilo editorial do projeto.
@@ -20,6 +30,10 @@ O formato segue os princípios de [Keep a Changelog](https://keepachangelog.com/
 
 ### Alterado
 
+- Identidade do projeto ampliada para incluir Engenharia de Software e
+  desenvolvimento profissional assistido por IA como camada transversal.
+- Estrutura editorial dos capítulos técnicos atualizada com a seção obrigatória
+  `IA em Ação`.
 - Fundação editorial e operacional revisada, com público-alvo, tecnologias,
   fases de aprendizagem, critérios de conclusão e restrições mais explícitos.
 - Versão de referência do projeto atualizada de Laravel 12 para Laravel 13.

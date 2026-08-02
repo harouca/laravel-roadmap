@@ -9,6 +9,11 @@ executados.
 > Novos capítulos devem ser criados somente quando seu conteúdo for desenvolvido.
 > Os itens abaixo planejam a trilha sem antecipar arquivos vazios.
 
+> **IA em todas as fases:** cada capítulo técnico possuirá uma seção `IA em
+> Ação` dedicada ao uso profissional da Inteligência Artificial, com foco em
+> compreensão, revisão crítica e validação. Essa camada não modifica a sequência
+> pedagógica descrita abaixo.
+
 ## Fase 1 — Fundamentos do framework
 
 **Dependências:** conhecimentos básicos de PHP, HTTP, terminal e Git.

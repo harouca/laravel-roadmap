@@ -40,13 +40,45 @@ Cada capítulo deve seguir a progressão definida em `AGENTS.md`. Use, quando ap
 6. exemplo aplicado;
 7. erros comuns;
 8. boas práticas;
-9. resumo;
-10. exercícios;
-11. checklist.
+9. IA em Ação;
+10. resumo;
+11. exercícios;
+12. checklist.
 
 Termine sempre com um resumo dos conceitos essenciais e exercícios que permitam
 verificar e aplicar o aprendizado. O checklist, quando necessário, deve fazer
 parte do encerramento e não introduzir conceitos novos.
+
+## IA em Ação
+
+Todo capítulo técnico deve conter uma seção com o título exato `## IA em Ação`.
+A seção deve ensinar revisão técnica de uma resposta assistida por IA, e não
+apenas apresentar um prompt para ser copiado.
+
+A seção deve conter sempre, nesta ordem:
+
+1. **Objetivo do uso da IA:** qual problema delimitado será investigado e por que
+   a ferramenta é adequada para apoiar essa atividade;
+2. **Prompt utilizado:** o texto enviado, com contexto suficiente para ser
+   compreendido e sem segredos ou dados pessoais;
+3. **Resposta resumida da IA:** síntese fiel da proposta, sem reproduzir conteúdo
+   extenso desnecessariamente;
+4. **Análise crítica:** avaliação das premissas, escolhas, trade-offs e aderência
+   ao que o capítulo ensinou;
+5. **Possíveis problemas:** erros, riscos, omissões, alucinações, questões de
+   segurança ou complexidade desnecessária;
+6. **Melhorias sugeridas:** correções e refinamentos necessários, acompanhados de
+   justificativa;
+7. **Versão final recomendada:** solução compreendida e validada pelo autor,
+   indicando o que mudou em relação à resposta original.
+
+Sempre que possível, registre como a versão final foi validada, por exemplo com
+documentação oficial, testes, análise estática ou verificação manual
+reproduzível. Consultar outra IA não substitui evidência independente.
+
+A seção não deve sugerir que a resposta da ferramenta é uma autoridade. Seu
+propósito é demonstrar como um desenvolvedor experiente compreende, revisa,
+valida e melhora uma proposta. Aplique também os princípios do `AI_GUIDE.md`.
 
 ## Notas, alertas e boas práticas
 
@@ -77,6 +109,8 @@ reduzir o risco.
 - `examples/` **mostra** um conceito isolado com o mínimo de contexto necessário.
 - `labs/` **faz o estudante praticar**, com objetivo, tarefas e critérios de conclusão.
 - `project/` **integra** o aprendizado em uma aplicação Laravel progressiva.
+- `ai/` **registra** materiais complementares sobre uso crítico e profissional
+  de IA, sem substituir a análise presente nos capítulos.
 - `versions/` registra **somente mudanças específicas de cada versão** do Laravel.
 
 Um mesmo tema pode aparecer em mais de um diretório, desde que cumpra funções diferentes e tenha referências cruzadas úteis.
