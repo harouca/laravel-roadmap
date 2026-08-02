@@ -13,6 +13,8 @@ O formato segue os princípios de [Keep a Changelog](https://keepachangelog.com/
 - Capítulos sobre introdução, estrutura do Laravel e PHP Artisan.
 - Diretórios reservados para exemplos, recursos visuais e aplicação prática.
 - Guia de estilo editorial do projeto.
+- Guia de contribuição com convenções para capítulos, exemplos, arquivos,
+  exercícios e commits.
 - Diretório `versions/` e registro inicial específico do Laravel 13.
 - Diretório `labs/` com práticas de Artisan, rotas e Controller.
 
@@ -20,3 +22,4 @@ O formato segue os princípios de [Keep a Changelog](https://keepachangelog.com/
 
 - Versão de referência do projeto atualizada de Laravel 12 para Laravel 13.
 - Documentação ajustada para diferenciar explicação, exemplo isolado, prática orientada e aplicação progressiva.
+- README atualizado para apresentar o guia e as convenções de contribuição.
