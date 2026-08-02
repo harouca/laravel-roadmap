@@ -1,0 +1,22 @@
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Arquivos locais e temporários
+*.log
+.env
+.env.*
+!.env.example
+
+# Dependências e artefatos que serão gerados futuramente
+/project/vendor/
+/project/node_modules/
+/project/public/build/
+/project/storage/*.key
+/project/storage/framework/cache/data/*
+/project/storage/framework/sessions/*
+/project/storage/framework/views/*
+/project/storage/logs/*
